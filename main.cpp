@@ -19,7 +19,7 @@ int main(int argc, char * argv[])
    server->setThreads(25);
    server->setPid("tmp/pid/server.pid");
    server->setDispatcher("lib.dispatcher");
-   server->addService("app/services");
+   //server->addService("app/services");
    server->start();
 
    return 0;
